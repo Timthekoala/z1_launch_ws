@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Define the namespace -->
+    <!-- <group ns="z1"> -->
+        <!-- Launch the spacenav_node -->
+        <node pkg="spacenav_node" type="spacenav_node" name="spacenav_node" output="screen">
+
+        </node>
+
+        <!-- Launch the robot_arm_controller node -->
+        <node pkg="robot_arm_controller" type="robot_arm_controller_node" name="robot_arm_controller" output="screen">
+
+        
+        </node>
+
+        <node name="haptic_controller" pkg="robot_arm_controller" type="ros_haptics.py" output="screen">
+        
+        </node>
+        
+    <!-- </group> -->
+</launch>

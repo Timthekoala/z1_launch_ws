@@ -1,0 +1,2 @@
+robot_arm_controller:robotiq/robotiq_control:robotiq/robotiq_description:robotiq/robotiq_gazebo:robotiq/robotiq_msgs
+-DCATKIN_DEVEL_PREFIX=/home/kian/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kian/catkin_ws/install -G Unix Makefiles
