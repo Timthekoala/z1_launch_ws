@@ -1,8 +1,0 @@
-prefix=/home/kian/catkin_ws/install
-
-Name: robot_arm_controller
-Description: Description of robot_arm_controller
-Version: 0.0.0
-Cflags: -I${prefix}/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -lrobot_arm_controller
-Requires: roscpp geometry_msgs std_msgs
